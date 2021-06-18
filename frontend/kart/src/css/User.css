@@ -1,0 +1,14 @@
+.userInfoContainer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.userInfo{
+    border: solid black 2pt;
+    padding: 25px;
+}
+.accType{
+    text-align: center;
+    width: 150px;
+}

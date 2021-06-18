@@ -1,0 +1,27 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin: 2px;
+    border: solid black 2px;
+    border-radius: 0%;
+    background-color: lightgoldenrodyellow;
+}
+.prodContainer{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.prodCard{
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 0%;
+    display: inline-block;
+    width: 20%;    
+}
+.greeting{
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.heading{
+    text-align: center;
+    font-size: 25pt;
+}
+
+.prodDetails{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border: solid grey 2pt;
+    width: 500px;
+}

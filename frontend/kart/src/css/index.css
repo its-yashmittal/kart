@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Britannic';
+    src: local('Britannic'), url(../fonts/Britannic/Britannic.ttf) format('truetype');
+}
+
+*{
+    font-family: 'Britannic';
+}

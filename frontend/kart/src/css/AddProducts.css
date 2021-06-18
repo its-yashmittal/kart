@@ -1,0 +1,15 @@
+.prodForm{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 250px;
+}
+.categoryDropDown{
+    border: solid black 2pt;
+    width: 250px;
+    height:50px;
+}
+.descriptionBox{
+    width: 250px;
+}

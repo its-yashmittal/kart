@@ -1,0 +1,31 @@
+version: '2'
+
+services:
+    server:
+      build:
+        context: ./backend
+        dockerfile: Dockerfile
+      container_name: kart-node-server
+      working_dir: /backend
+      command: node server.js
+      ports:
+        - "2424:2424"
+      networks:
+        - app-network
+    client:
+      build:
+        context: ./frontend/kart
+        dockerfile: Dockerfile
+      container_name: kart-react-client
+      working_dir: /frontend/kart
+      command: npm start
+      depends_on:
+        - server
+      ports:
+        - "3000:3000"
+      networks:
+        - app-network
+networks:
+    app-network:
+        driver: bridge
+  

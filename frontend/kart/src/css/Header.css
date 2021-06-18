@@ -1,0 +1,92 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+@font-face {
+    font-family: 'Britannic';
+    src: local('Britannic'), url(../fonts/Britannic/Britannic.ttf) format('truetype');
+}
+
+.button{
+    border: solid black 2px;
+    text-align: center;
+    border-radius: 0%;
+    background-color: lightgoldenrodyellow;
+}
+.topBar{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    padding: 0px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    overflow: hidden;
+}
+.searchDiv{
+    display: inline-block;
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+}
+.userActions{
+    padding: 25px;
+    display: inline-block;
+}
+
+.logoImg{
+    display: inline-block;
+    height: 100px;
+    margin-left: 6.25px;
+    padding: 6.25px;
+}
+
+.posn{
+    position: absolute;
+}
+.searchBar{
+    border: solid black 2px;
+    border-radius: 0%;
+    display: inline-block;
+    width: 500px;
+    padding: 9.25px;
+    margin-right: 0px;
+    font-family: Britannic;
+    border-right: none;
+    outline: none;
+}
+.searchBtn{   
+    display: inline-block;
+    border-left: none;
+    padding: 12.5px;
+    margin-left: 0px;
+    outline: none;
+}
+
+.searchBtnImg{
+    height: 30px;
+    width: 50px;
+}
+.menubar{
+    display: flex;
+    justify-content: center;
+}
+.greeting{
+    font-size: 40pt;
+}
+.navbar-end{
+    margin-left: 150px; 
+    margin-right: 150px; 
+}
+.dropdown-content{
+    
+    font-size: 15pt;
+}
+.dropdown-item{
+    font-size: 15pt;
+}
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+}
